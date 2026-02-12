@@ -1,0 +1,53 @@
+[package]
+name = "rust-tutorial"
+version = "0.1.0"
+edition = "2021"
+authors = ["Servet Akcadag "]
+description = "Türkçe Rust programlama dili öğrenme rehberi - Sıfırdan ileri seviye"
+license = "MIT"
+repository = "https://github.com/Albatros46/Rust_Tutoriall "
+homepage = "https://github.com/Albatros46/Rust_Tutoriall "
+documentation = "https://github.com/Albatros46/Rust_Tutoriall "
+keywords = ["rust", "tutorial", "turkish", "learning", "programming"]
+categories = ["education", "development-tools"]
+readme = "README.md"
+default-run = "main"  # ⭐ Varsayılan çalıştırılacak binary
+
+[dependencies]
+# Temel bağımlılıklar
+rand = "0.8"           # Rastgele sayılar için örneklerde
+
+# Async için (opsiyonel)
+tokio = { version = "1", features = ["full"], optional = true }
+
+# WASM için (opsiyonel)
+wasm-bindgen = { version = "0.2", optional = true }
+
+# Embedded için (opsiyonel)
+cortex-m = { version = "0.7", optional = true }
+cortex-m-rt = { version = "0.7", optional = true }
+
+[features]
+default = []
+async = ["tokio"]
+wasm = ["wasm-bindgen"]
+embedded = ["cortex-m", "cortex-m-rt"]
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+# Her konu için ayrı çalıştırılabilir
+[[bin]]
+name = "01_variables"
+path = "src/01_variables.rs"
+
+[[bin]]
+name = "05_ownership"
+path = "src/05_ownership.rs"
+
+# ... diğerleri
+
+[profile.release]
+opt-level = 3
+lto = true
