@@ -19,16 +19,24 @@
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/Ders4_Type_Aliases/Cargo.toml">
+      <package file="$PROJECT_DIR$/Ders4_Type_Aliases">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6faea6f0-4028-4980-bd9a-ca1913c8c557" name="Changes" comment="Rsut Tutorial" />
+    <list default="true" id="6faea6f0-4028-4980-bd9a-ca1913c8c557" name="Changes" comment="Rsut Tutorial">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ders1/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/Ders1/target/.rustc_info.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="16" />
+    <option name="cachedIndexableFilesCount" value="15" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,18 +48,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Albatros46"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Albatros46&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Albatros46/Rust_Tutorial.git",
-    "accountId": "767fb0f5-7d17-4935-a10f-643646abacb4"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Albatros46/Rust_Tutorial.git&quot;,
+    &quot;accountId&quot;: &quot;767fb0f5-7d17-4935-a10f-643646abacb4&quot;
   }
-}]]></component>
+}</component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="0n0aph30" />
   </component>
@@ -114,6 +122,10 @@
       <workItem from="1770833828569" duration="60000" />
       <workItem from="1770833903361" duration="1839000" />
       <workItem from="1770900590329" duration="8503000" />
+      <workItem from="1771009540803" duration="50000" />
+      <workItem from="1772353963156" duration="1515000" />
+      <workItem from="1772355927232" duration="736000" />
+      <workItem from="1772358705587" duration="631000" />
     </task>
     <task id="LOCAL-00001" summary="Rsut Tutorial">
       <option name="closed" value="true" />
