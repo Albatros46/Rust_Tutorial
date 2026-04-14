@@ -29,18 +29,25 @@
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/Ders6_Proje1/Cargo.toml">
+      <package file="$PROJECT_DIR$/Ders6_Proje1">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/Ders7_Integers/Cargo.toml">
+      <package file="$PROJECT_DIR$/Ders7_Integers">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6faea6f0-4028-4980-bd9a-ca1913c8c557" name="Changes" comment="Type Aliases">
+    <list default="true" id="6faea6f0-4028-4980-bd9a-ca1913c8c557" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="15" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -80,32 +87,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Projeler/Rust Tutorial&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
-    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
-    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.rust.reset.selective.auto.import": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "E:/Projeler/Rust Tutorial",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
+    "org.rust.first.attach.projects": "true",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
   </component>
@@ -130,7 +138,8 @@
       <workItem from="1772353963156" duration="1515000" />
       <workItem from="1772355927232" duration="736000" />
       <workItem from="1772358705587" duration="804000" />
-      <workItem from="1772842789162" duration="1206000" />
+      <workItem from="1772842789162" duration="2123000" />
+      <workItem from="1776110708287" duration="553000" />
     </task>
     <task id="LOCAL-00001" summary="Rsut Tutorial">
       <option name="closed" value="true" />
@@ -148,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772359493062</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Compiler Directives:    https://doc.rust-lang.org/reference/attributes.html&#10;                         Rust'ta compiler directives (derleyici yönergeleri) denildiğinde genellikle conditional compilation (koşullu derleme) kastedilir.&#10;                         Bunun ana aracı #[cfg] attribute'üdür.&#10;                     Bu sistem sayesinde aynı kod tabanından farklı platformlar, farklı feature'lar veya debug/release modları için farklı kod parçaları derleyebilirsiniz.&#10;                     Anahtar,             | Anlamı / Örnek Kullanım,   | Tipik Değerler&#10;                     target_os,           | İşletim sistemi,           | &quot;&quot;&quot;windows&quot;&quot;, &quot;&quot;linux&quot;&quot;, &quot;&quot;macos&quot;&quot;, &quot;&quot;android&quot;&quot;, &quot;&quot;ios&quot;&quot;&quot;&#10;                     target_family,       | OS ailesi,                 | &quot;&quot;&quot;unix&quot;&quot;, &quot;&quot;windows&quot;&quot;&quot;&#10;                     target_arch,         | CPU mimarisi,              | &quot;&quot;&quot;x86_64&quot;&quot;, &quot;&quot;aarch64&quot;&quot;, &quot;&quot;arm&quot;&quot;, &quot;&quot;riscv64&quot;&quot;&quot;&#10;                     target_pointer_width,| Pointer boyutu (bit),      | &quot;&quot;&quot;32&quot;&quot;, &quot;&quot;64&quot;&quot;&quot;&#10;                     target_endian,       | Byte sırası,               | &quot;&quot;&quot;little&quot;&quot;, &quot;&quot;big&quot;&quot;&quot;&#10;                     &quot;feature = &quot;&quot;isim&quot;&quot;&quot; | Cargo feature'ı aktif mi?, | &quot;&quot;&quot;serde&quot;&quot;, &quot;&quot;async&quot;&quot; vb.&quot;&#10;                     debug_assertions,    | Debug modda mı? (cargo build vs cargo build --release),| — (sadece var/yok)&#10;                     test,                | cargo test çalışırken,     |—&#10;                     ---------------&#10;                     #[cfg(target_os = &quot;windows&quot;)]&#10;                     #[cfg(unix)]&#10;                     #[cfg(feature = &quot;xxx&quot;)]&#10;                     #[cfg(debug_assertions)]&#10;                     #[cfg(not(...))]">
+      <option name="closed" value="true" />
+      <created>1772844047711</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1772844047712</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +174,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rsut Tutorial" />
     <MESSAGE value="Type Aliases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Type Aliases" />
+    <MESSAGE value="Compiler Directives:    https://doc.rust-lang.org/reference/attributes.html&#10;                         Rust'ta compiler directives (derleyici yönergeleri) denildiğinde genellikle conditional compilation (koşullu derleme) kastedilir.&#10;                         Bunun ana aracı #[cfg] attribute'üdür.&#10;                     Bu sistem sayesinde aynı kod tabanından farklı platformlar, farklı feature'lar veya debug/release modları için farklı kod parçaları derleyebilirsiniz.&#10;                     Anahtar,             | Anlamı / Örnek Kullanım,   | Tipik Değerler&#10;                     target_os,           | İşletim sistemi,           | &quot;&quot;&quot;windows&quot;&quot;, &quot;&quot;linux&quot;&quot;, &quot;&quot;macos&quot;&quot;, &quot;&quot;android&quot;&quot;, &quot;&quot;ios&quot;&quot;&quot;&#10;                     target_family,       | OS ailesi,                 | &quot;&quot;&quot;unix&quot;&quot;, &quot;&quot;windows&quot;&quot;&quot;&#10;                     target_arch,         | CPU mimarisi,              | &quot;&quot;&quot;x86_64&quot;&quot;, &quot;&quot;aarch64&quot;&quot;, &quot;&quot;arm&quot;&quot;, &quot;&quot;riscv64&quot;&quot;&quot;&#10;                     target_pointer_width,| Pointer boyutu (bit),      | &quot;&quot;&quot;32&quot;&quot;, &quot;&quot;64&quot;&quot;&quot;&#10;                     target_endian,       | Byte sırası,               | &quot;&quot;&quot;little&quot;&quot;, &quot;&quot;big&quot;&quot;&quot;&#10;                     &quot;feature = &quot;&quot;isim&quot;&quot;&quot; | Cargo feature'ı aktif mi?, | &quot;&quot;&quot;serde&quot;&quot;, &quot;&quot;async&quot;&quot; vb.&quot;&#10;                     debug_assertions,    | Debug modda mı? (cargo build vs cargo build --release),| — (sadece var/yok)&#10;                     test,                | cargo test çalışırken,     |—&#10;                     ---------------&#10;                     #[cfg(target_os = &quot;windows&quot;)]&#10;                     #[cfg(unix)]&#10;                     #[cfg(feature = &quot;xxx&quot;)]&#10;                     #[cfg(debug_assertions)]&#10;                     #[cfg(not(...))]" />
+    <option name="LAST_COMMIT_MESSAGE" value="Compiler Directives:    https://doc.rust-lang.org/reference/attributes.html&#10;                         Rust'ta compiler directives (derleyici yönergeleri) denildiğinde genellikle conditional compilation (koşullu derleme) kastedilir.&#10;                         Bunun ana aracı #[cfg] attribute'üdür.&#10;                     Bu sistem sayesinde aynı kod tabanından farklı platformlar, farklı feature'lar veya debug/release modları için farklı kod parçaları derleyebilirsiniz.&#10;                     Anahtar,             | Anlamı / Örnek Kullanım,   | Tipik Değerler&#10;                     target_os,           | İşletim sistemi,           | &quot;&quot;&quot;windows&quot;&quot;, &quot;&quot;linux&quot;&quot;, &quot;&quot;macos&quot;&quot;, &quot;&quot;android&quot;&quot;, &quot;&quot;ios&quot;&quot;&quot;&#10;                     target_family,       | OS ailesi,                 | &quot;&quot;&quot;unix&quot;&quot;, &quot;&quot;windows&quot;&quot;&quot;&#10;                     target_arch,         | CPU mimarisi,              | &quot;&quot;&quot;x86_64&quot;&quot;, &quot;&quot;aarch64&quot;&quot;, &quot;&quot;arm&quot;&quot;, &quot;&quot;riscv64&quot;&quot;&quot;&#10;                     target_pointer_width,| Pointer boyutu (bit),      | &quot;&quot;&quot;32&quot;&quot;, &quot;&quot;64&quot;&quot;&quot;&#10;                     target_endian,       | Byte sırası,               | &quot;&quot;&quot;little&quot;&quot;, &quot;&quot;big&quot;&quot;&quot;&#10;                     &quot;feature = &quot;&quot;isim&quot;&quot;&quot; | Cargo feature'ı aktif mi?, | &quot;&quot;&quot;serde&quot;&quot;, &quot;&quot;async&quot;&quot; vb.&quot;&#10;                     debug_assertions,    | Debug modda mı? (cargo build vs cargo build --release),| — (sadece var/yok)&#10;                     test,                | cargo test çalışırken,     |—&#10;                     ---------------&#10;                     #[cfg(target_os = &quot;windows&quot;)]&#10;                     #[cfg(unix)]&#10;                     #[cfg(feature = &quot;xxx&quot;)]&#10;                     #[cfg(debug_assertions)]&#10;                     #[cfg(not(...))]" />
   </component>
 </project>
